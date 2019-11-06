@@ -10,8 +10,14 @@
   "author": "Marco Castillo",
   "license": "MIT",
   "dependencies": {
+    "bourbon": "^6.0.0",
+    "css-loader": "^3.2.0",
+    "mdbreact": "^4.22.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "style-loader": "^1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
