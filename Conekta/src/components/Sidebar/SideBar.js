@@ -7,7 +7,7 @@ const sideBar = props => {
       sidebarClasses = 'sidebar open';
     }
   return (
-    <nav className='sidebar'>
+    <nav className={sidebarClasses}>
     <div className="toolbar_logo"><a href="/"><img src="https://uniko.co/wp-content/uploads/2019/08/colaboradores-uniko-conekta.png" alt="Avatar" class="avatar" /></a></div>
       <ul>
           <li><a href="/">Products</a></li>

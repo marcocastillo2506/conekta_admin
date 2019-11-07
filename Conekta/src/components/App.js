@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from './Header/Header.js';
 import SideBar from './Sidebar/SideBar.js';
 import Backdrop from './Backdrop/Backdrop.js'
+import Transactions from './Transactions/Transactions.js'
 
 class App extends Component {
   constructor(props){
@@ -36,6 +37,7 @@ class App extends Component {
       <SideBar show={this.state.sidebarOpen} />
       {backdropShow}
       <main style={{marginTop: '64px'}}>
+      <Transactions />
       </main>
     </div>
     )
